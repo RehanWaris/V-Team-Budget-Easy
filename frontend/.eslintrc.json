@@ -1,0 +1,13 @@
+diff --git a/frontend/.eslintrc.json b/frontend/.eslintrc.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..b50114a379ac389946a5449e0139b13b58f39b5a
+--- /dev/null
++++ b/frontend/.eslintrc.json
+@@ -0,0 +1,7 @@
++{
++  "extends": ["next/core-web-vitals", "next/typescript"],
++  "rules": {
++    "react/jsx-props-no-spreading": "off",
++    "@next/next/no-html-link-for-pages": "off"
++  }
++}
