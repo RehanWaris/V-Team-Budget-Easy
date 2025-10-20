@@ -11,13 +11,27 @@ V-Budget is an internal web application for the Voiceworx Events team to manage 
 
 > **Note:** Package installation commands require internet access. If your environment restricts external downloads, sync dependencies from an approved mirror before continuing.
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+1. Ensure you have a terminal open on your development machine (macOS, Windows Subsystem for Linux, or Linux) with **Node.js 18+** and **npm** installed.
+2. Navigate to the repository folder you cloned from GitHub:
 
-The development server defaults to `http://localhost:3000`.
+   ```bash
+   cd /path/to/V-Team-Budget-Easy
+   ```
+
+3. Move into the frontend workspace and install dependencies:
+
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+4. Start the Next.js development server:
+
+   ```bash
+   npm run dev
+   ```
+
+The dev server will start at `http://localhost:3000`. Leave this command running while you work; press `Ctrl+C` in the same terminal when you want to stop it.
 
 ## Current Status
 
