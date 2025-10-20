@@ -33,6 +33,17 @@ V-Budget is an internal web application for the Voiceworx Events team to manage 
 
 The dev server will start at `http://localhost:3000`. Leave this command running while you work; press `Ctrl+C` in the same terminal when you want to stop it.
 
+### Troubleshooting `npm install`
+
+If `npm install` throws an `EJSONPARSE` error or references a line beginning with `diff --git`, the `frontend/package.json` file was likely corrupted during a manual copy/paste. Validate (and optionally restore) the file with:
+
+```bash
+cd frontend
+node scripts/check-package-json.cjs --restore
+```
+
+Omit `--restore` if you only want to perform a read-only check. After the check completes without errors, rerun `npm install`.
+
 ## Current Status
 
 - ✅ High-level product plan capturing workflows, modules, and UI direction (`docs/project-plan.md`).
