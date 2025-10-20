@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --brand-blue: #1E3A8A;
+  --brand-black: #111827;
+  --brand-white: #F9FAFB;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--brand-white);
+  color: var(--brand-black);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
