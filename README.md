@@ -1,10 +1,8 @@
-# V-Team-Budget-Easy
-For Voiceworx Team employees to make quick cost
 diff --git a/README.md b/README.md
-index a859c3a4ccb0195d468c3496af2d02b89e09b258..dcc19b8c936162cdbfe771c9e06c5650c5e11772 100644
+index a859c3a4ccb0195d468c3496af2d02b89e09b258..393f0d7ac442431934f8e4632acc9b8476974fe8 100644
 --- a/README.md
 +++ b/README.md
-@@ -1,2 +1,34 @@
+@@ -1,2 +1,48 @@
 -# V-Team-Budget-Easy
 -For Voiceworx Team employees to make quick cost
 +# V-Budget (Voiceworx Budgeting Platform)
@@ -20,13 +18,27 @@ index a859c3a4ccb0195d468c3496af2d02b89e09b258..dcc19b8c936162cdbfe771c9e06c5650
 +
 +> **Note:** Package installation commands require internet access. If your environment restricts external downloads, sync dependencies from an approved mirror before continuing.
 +
-+```bash
-+cd frontend
-+npm install
-+npm run dev
-+```
++1. Ensure you have a terminal open on your development machine (macOS, Windows Subsystem for Linux, or Linux) with **Node.js 18+** and **npm** installed.
++2. Navigate to the repository folder you cloned from GitHub:
 +
-+The development server defaults to `http://localhost:3000`.
++   ```bash
++   cd /path/to/V-Team-Budget-Easy
++   ```
++
++3. Move into the frontend workspace and install dependencies:
++
++   ```bash
++   cd frontend
++   npm install
++   ```
++
++4. Start the Next.js development server:
++
++   ```bash
++   npm run dev
++   ```
++
++The dev server will start at `http://localhost:3000`. Leave this command running while you work; press `Ctrl+C` in the same terminal when you want to stop it.
 +
 +## Current Status
 +
