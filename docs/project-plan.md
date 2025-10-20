@@ -1,3 +1,4 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/docs/project-plan.md b/docs/project-plan.md
 new file mode 100644
 index 0000000000000000000000000000000000000000..c18caac31ef1873266977d2c04354768ff5dd00d
@@ -163,3 +164,6 @@ index 0000000000000000000000000000000000000000..c18caac31ef1873266977d2c04354768
 +- Kick off repository scaffolding (frontend and backend).
 +- Begin with authentication flows and vendor module per roadmap.
 +
+ 
+EOF
+)
