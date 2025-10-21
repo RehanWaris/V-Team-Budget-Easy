@@ -1,17 +1,3 @@
-# Node
-node_modules/
-*.log
-.next/
-out/
-
-# Editor
-.idea/
-.vscode/
-.DS_Store
-
-# Env
-.env
-.env.*
 diff --git a/.gitignore b/.gitignore
 new file mode 100644
 index 0000000000000000000000000000000000000000..82b327b7610eff6fa66719a22a0ffe920305eba1
