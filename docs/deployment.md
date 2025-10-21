@@ -13,14 +13,16 @@ Before deploying, make sure the following are available:
 
 ## 2. Prepare the Frontend Build
 
-1. Install dependencies (run once per environment):
+1. Install dependencies from your development machine or Codespaces terminal (for example, the integrated terminal in VS Code):
 
    ```bash
    cd frontend
    npm install
    ```
 
-2. Generate an optimized production build:
+   > **Note:** If you deploy with Vercel directly from GitHub you do **not** need to run these commands in Vercel itself—Vercel executes them automatically during the build. Run them locally only when you want to verify the build before pushing.
+
+2. Generate an optimized production build (run in the same local terminal as above):
 
    ```bash
    npm run build
